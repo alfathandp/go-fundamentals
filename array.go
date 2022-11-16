@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(y)
 	fmt.Println(z)
 
-	primes := [] int {2,3,5}
+	primes := [4] int {2,3,5}
 	//looping array cara pertama
 	for index :=0; index <len(primes); index++ {
 		fmt.Println(primes[index])
